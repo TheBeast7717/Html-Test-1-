@@ -1,0 +1,43 @@
+<html>
+<head><title>Averages of numbers 1</title></head>
+    
+    <script>
+        function avg(){
+            var a = document.getElementById("num1").value;
+            var b = document.getElementById("num2").value;
+            var c = document.getElementById("num3").value;
+            
+            var average = (parseFloat(a)+parseFloat(b)+parseFloat(c))/3
+            document.getElementById("answer").value=average;
+            
+        }
+    
+    </script>
+    <body bgColor="yellow">
+        
+        <form>
+            Enter the first number1 : <input type="text" id ="num1"><br>
+            Enter the second number2 : <input type = "text" id = "num2"><br>
+            Enter the second number3 : <input type = "text" id = "num3"><br>
+            
+            <input type="button" value="Calculate" onClick="avg()">
+            <br>
+            Average is : <input type = "text" id = "answer">
+            
+            
+        
+        
+        
+        
+        </form>
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+</html>
